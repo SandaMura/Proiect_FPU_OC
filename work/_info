@@ -1,0 +1,198 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\lab LD\Verilog
+vadd_sub27
+IP6TaKgUE7gHz`HSa[6<2z1
+Vj?ZHJaS415oOi^SeJS^oE0
+Z0 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\Labs\OC\FPU_MuraSanda\verilogFiles_project
+Z1 w1000383036
+Z2 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v
+Z3 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v
+L0 44
+Z4 OV;L;6.5b;42
+r1
+31
+Z5 !s102 -nocovercells
+Z6 o-work work -nocovercells -O0
+!s100 6^il32PhJlab;RM8fo2KN0
+!s85 0
+!s101 -O0
+vdelay1
+IYz1<7cb6ooc4`_@Nho[gX1
+VOAFoE9:Izg<z=D@?4NaMh3
+Z7 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\Labs\OC\FPU_MuraSanda\verilogFiles_project
+Z8 w1000550676
+Z9 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v
+Z10 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v
+L0 627
+R4
+r1
+31
+R5
+R6
+!s100 UX4hbJMF_NCTW7Eo[YYUO3
+!s85 0
+!s101 -O0
+vdelay2
+Ih5<<VXlmiKJH9=d^F^WjU1
+V<^fTb6W3ie7_2Xj84E72=0
+R7
+R8
+R9
+R10
+L0 641
+R4
+r1
+31
+R5
+R6
+!s100 F1O>][a?z9P>31ol_@U5_0
+!s85 0
+!s101 -O0
+vdelay3
+I`0P4`ZE3o8:3XM<EK8X]33
+V0`2]0BlmUZH2a1Hz1fU]j1
+R7
+R8
+R9
+R10
+L0 657
+R4
+r1
+31
+R5
+R6
+!s100 YaLb28bdz99Nck95i1AS:0
+!s85 0
+!s101 -O0
+vdiv_r2
+I;82K12Cbg]9bR;K8oQ]FI1
+V=ZVU7:_6904a4;CPKDXP53
+R7
+R1
+R2
+R3
+L0 81
+R4
+r1
+31
+R5
+R6
+!s100 Tz3KBn5;;;::3]^@`PWg]2
+!s85 0
+!s101 -O0
+vexcept
+IeaIQmDNaOfSH<bc0QknT03
+VQD;jJe2ZRHm<W30e5GZ303
+R7
+R1
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v
+L0 39
+R4
+r1
+31
+R5
+R6
+!s100 1XXD?hm?gf@b]Ta<0M8L^0
+!s85 0
+!s101 -O0
+vfpu
+I^QHES5;jhdgEZFO<]6b:81
+VF:[:DbCVW92<A;:GO^S]m0
+R7
+R8
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/fpu.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/fpu.v
+L0 62
+R4
+r1
+31
+R5
+R6
+!s100 dDh3Hjdna3XREDZhj7MaV3
+!s85 0
+!s101 -O0
+vmul_r2
+IggFa4O=HPQZRM0gib26oV2
+VXXe8=oobbm0oc9jDUTiC<3
+R7
+R1
+R2
+R3
+L0 61
+R4
+r1
+31
+R5
+R6
+!s100 R@ZAdG64<4Yl@;LdhT6ZH1
+!s85 0
+!s101 -O0
+vpost_norm
+IU>jK`HY8Lj>nocS:zQbT^0
+VIiWQckjLjUf2KfTgESa]E1
+R7
+R8
+R9
+R10
+L0 38
+R4
+r1
+31
+R5
+R6
+!s100 cd00XdPA?k65DmRj8d>:a0
+!s85 0
+!s101 -O0
+vpre_norm
+IOJKc@CK=5Bh?YXkba?AK`1
+V8>LKIY2?0TTD=6enKi6PZ1
+R7
+R1
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v
+L0 38
+R4
+r1
+31
+R5
+R6
+!s100 ;@]KNUF`aZS`gC>?EBhAP3
+!s85 0
+!s101 -O0
+vpre_norm_fmul
+I@<RXjDC6z>7j7Jl6TK[5h3
+VB6V6dN_QU?7V44AHMkiQz1
+R7
+R1
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v
+L0 37
+R4
+r1
+31
+R5
+R6
+!s100 nz@b3eZcj9`09_9BbBMCV1
+!s85 0
+!s101 -O0
+vtest
+!s100 8zRHE5gNBV>?SiY:Q9JnZ0
+IMc:FBzQW51E4=Rh9n4HIB3
+Vk<3<[f=78GX=_HO53D;7>3
+R7
+w1649511182
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v
+Fsel_test.vh
+L0 40
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6

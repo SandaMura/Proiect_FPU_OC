@@ -1,0 +1,57 @@
+{C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/fpu.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/fpu.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module fpu
+
+Top level modules:
+	fpu
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module add_sub27
+-- Compiling module mul_r2
+-- Compiling module div_r2
+
+Top level modules:
+	add_sub27
+	mul_r2
+	div_r2
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module pre_norm_fmul
+
+Top level modules:
+	pre_norm_fmul
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module post_norm
+-- Compiling module delay1
+-- Compiling module delay2
+-- Compiling module delay3
+
+Top level modules:
+	post_norm
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module except
+
+Top level modules:
+	except
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module pre_norm
+
+Top level modules:
+	pre_norm
+
+} {} {}}
