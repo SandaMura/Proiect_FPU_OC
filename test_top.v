@@ -46,6 +46,9 @@ wire	[31:0]	sum;
 wire		inf, snan, qnan;
 wire		div_by_zero;
 
+///Noua exceptie
+wire opa_zero_or_neg;
+
 reg	[31:0]	exp, exp1, exp2, exp3, exp4;
 reg	[31:0]	opa1, opa2, opa3, opa4;
 reg	[31:0]	opb1, opb2, opb3, opb4;
@@ -117,6 +120,9 @@ initial
 
 	test_sel   = 5'b11111;
 	test_rmode = 4'b1111;
+	
+	///new exception
+	///opa_zero_or_neg=0;
 
 	@(posedge clk);
 
@@ -159,6 +165,8 @@ begin
 		opa   = tmp[95:64];
 		opb   = tmp[63:32];
 		exp   = tmp[31:00];
+		
+		//disp_fp(opa);
 
 		// FPU rounding mode
 		//  0:	float_round_nearest_even
@@ -258,18 +266,32 @@ always @(posedge clk)
 
 	#3;
 	
-	//	Floating Point Exceptions ( exc4 )
+	//	Floating Point Exceptions ( exc4 ) ///ERORI PT OUTPUT
 	//	-------------------------
 	//	float_flag_invalid   =  1,
 	//	float_flag_divbyzero =  4,
 	//	float_flag_overflow  =  8,
 	//	float_flag_underflow = 16,
 	//	float_flag_inexact   = 32
+	
+	///NEW FLAG
+	///float_flag_opa_zero_or_neg = 2
 
    	exc_err=0;
 
 	if(test_exc)
 	   begin
+	     
+	     
+	    ///Noua exceptie pentru LOG
+	    // exc4[1] intotdeauna 0 din fisierul generat in C
+	    //in prezent, nu se executa acest if pt ca inca nu am implementat operatia 7(log)
+	    if(fpu_op4==3'd7 && (opa_zero_or_neg !==exc4[1]))
+	      begin
+	        exc_err=1;
+	        $display("\nERROR: OPA_ZERO_OR_NEG Exception: Expected: %h, Got %h\n",exc4[2],opa_zero_or_neg);
+	        end
+	        
 
 		if(div_by_zero !== exc4[2])
 		   begin
@@ -376,7 +398,7 @@ rmode4, fpu_op4, rmode5, fpu_op5, rmode3, fpu_op3);
    end
 
 
-fpu u0(clk, fpu_rmode, fpu_op, opa, opb, sum, inf, snan, qnan, ine, overflow, underflow, zero, div_by_zero);
+fpu u0(clk, fpu_rmode, fpu_op, opa, opb, sum, inf, snan, qnan, ine, overflow, underflow, zero, div_by_zero, opa_zero_or_neg);
 
 
 task disp_fp;

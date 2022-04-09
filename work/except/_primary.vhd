@@ -16,6 +16,7 @@ entity except is
         opa_inf         : out    vl_logic;
         opb_inf         : out    vl_logic;
         opa_dn          : out    vl_logic;
-        opb_dn          : out    vl_logic
+        opb_dn          : out    vl_logic;
+        opa_zero_or_neg : out    vl_logic
     );
 end except;

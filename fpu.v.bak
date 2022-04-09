@@ -571,7 +571,7 @@ always @(posedge clk)
 	
 	
 ///Exceptie la calculul logaritmului: a < 0 sau a = 0
-//always @(posedge clk)
-	   //    opa_zero_or_neg<= #1 opa[31] | (!(|fracta) & !(|expa));
-	       
+//	always @(posedge clk)
+	 //       opa_zero_or_neg<= #1 opa[31] | (!(|fracta) & !(|expa));
+
 endmodule

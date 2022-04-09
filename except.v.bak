@@ -172,8 +172,9 @@ always @(posedge clk)
          // opa_zero_or_neg<= #1 opa[31] | (!(|fracta) & !(|expa));
           zon1<=#1 opa[31] | (!(|fracta) & !(|expa));
           zon2<=#1 zon1;
-         
-          opa_zero_or_neg<=#1 zon2;
+          zon3<=#1 zon2;
+          zon4<=#1 zon3;
+          opa_zero_or_neg<=#1 zon4;
           
           
         end

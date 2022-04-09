@@ -20,6 +20,7 @@ entity fpu is
         overflow        : out    vl_logic;
         underflow       : out    vl_logic;
         zero            : out    vl_logic;
-        div_by_zero     : out    vl_logic
+        div_by_zero     : out    vl_logic;
+        opa_zero_or_neg : out    vl_logic
     );
 end fpu;
