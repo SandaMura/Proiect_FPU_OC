@@ -5,6 +5,13 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	fpu
 
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module testBench_inmutire
+
+Top level modules:
+	testBench_inmutire
+
 } {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module add_sub27
@@ -16,20 +23,6 @@ Top level modules:
 	mul_r2
 	div_r2
 
-} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v}
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module except
-
-Top level modules:
-	except
-
-} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v}
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module pre_norm_fmul
-
-Top level modules:
-	pre_norm_fmul
-
 } {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module post_norm
@@ -39,6 +32,57 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 
 Top level modules:
 	post_norm
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module pre_norm_fmul
+
+Top level modules:
+	pre_norm_fmul
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module except
+
+Top level modules:
+	except
+
+} {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v} {0 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module log_operation
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(74): near "function": syntax error, unexpected "function"
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(93): Undefined variable: manb.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(93): Undefined variable: b.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(94): Undefined variable: a_n.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(94): Undefined variable: a.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(95): Undefined variable: b_n.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(96): Undefined variable: exa.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(97): Undefined variable: exb.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(98): Undefined variable: sa.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(98): Undefined variable: mana.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(99): Undefined variable: sb.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(100): Undefined variable: sgna.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(101): Undefined variable: sgnb.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(104): Undefined variable: inf.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(105): Undefined variable: den.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(134): near "end": syntax error, unexpected "end", expecting ';'
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(164): near "end": syntax error, unexpected "end", expecting ';'
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(167): Undefined variable: ze.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(167): near "=": syntax error, unexpected '=', expecting "++" or "--"
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(168): Undefined variable: sz.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(201): Undefined variable: sgnz.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(205): Undefined variable: mul_fl_32.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(208): near "endfunction": syntax error, unexpected "endfunction"
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(218): near "else": syntax error, unexpected "else"
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(230): near "+=": Operator only allowed in SystemVerilog.
+** Error: C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v(231): near "+=": Operator only allowed in SystemVerilog.
+
+} {4.0 30.0} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module test
+
+Top level modules:
+	test
 
 } {} {}} {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v} {1 {vlog -work work -nocovercells {C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009

@@ -115,6 +115,22 @@ R6
 !s100 6;e3[XVTA7V?6Xf[?gzO]3
 !s85 0
 !s101 -O0
+vinmultire
+IF[>b^KEGl9Y7@C4M]k5D;2
+V9fSIC8BoJPQGU6gHe<Gi[2
+R7
+w1650740867
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/inmultire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/inmultire.v
+L0 3
+R4
+r1
+31
+R5
+R6
+!s100 11KZVLZMEza]4<d[nQ@D70
+!s85 0
+!s101 -O0
 vmul_r2
 IggFa4O=HPQZRM0gib26oV2
 VXXe8=oobbm0oc9jDUTiC<3
@@ -180,15 +196,31 @@ R6
 !s85 0
 !s101 -O0
 vtest
-!s100 ZX[GRVRY3iaFlE[lm<ISZ0
-I@RzUDmn=]CkcGj9D`R^UE3
+IVd05:5UVIaCAR^ZEghgKf0
 Vk<3<[f=78GX=_HO53D;7>3
 R7
-w1649528464
+w1649529467
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v
 Fsel_test.vh
 L0 40
+R4
+r1
+31
+R5
+R6
+!s100 fHkXa7<KaFiGFI29kN;Gl0
+!s85 0
+!s101 -O0
+vtestBench_inmutire
+!s100 ifzCAXaMziBbm;JNVIP]=2
+I33d;iG;dcGQAXIzUL0I381
+Vo1`O8<fFPdR3BkZn1aDL]0
+R7
+w1650739931
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v
+L0 1
 R4
 r1
 !s85 0
@@ -196,3 +228,4 @@ r1
 !s101 -O0
 R5
 R6
+ntest@bench_inmutire

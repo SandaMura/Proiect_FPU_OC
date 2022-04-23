@@ -1,0 +1,56 @@
+module log2
+ #(
+ parameter in_int = 16,
+ parameter in_frac = 8,
+ parameter out_int = $clog2(in_int),
+ parameter out_frac = in_int+in_frac-out_int,
+// parameter lut_precision = 6,
+ parameter register_output_stage = 0
+ )
+ (
+   input clk,
+   input [in_int+in_frac-1:0] din,
+   input din_valid,             /// data in is valid
+   output din_ready,            /// ready to receive data
+   output reg [out_int+out_frac-1:0] dout,
+   output reg dout_valid,       /// data out is ready (valid)
+   output reg dout_error        // data out is incorrect - input data was less than 1.0
+   );
+   
+    assign din_ready = 1;
+    
+     wire [$clog2(in_int)-1:0] prienc_out;
+     wire prienc_error;
+  
+  priencr #(in_int)
+  priencr
+    (
+     .decode(din[in_frac+:in_int]),
+     .encode(prienc_out),
+     .valid(prienc_error)
+     );
+     
+     reg [$clog2(in_int)-1:0] stage1_prienc_out;
+  reg stage1_error;
+  reg stage1_valid;
+  reg [in_int+in_frac-1:0] stage1_din;
+  
+  always @(posedge clk)
+    begin
+      stage1_din <= din;
+      stage1_prienc_out <= prienc_out;
+      stage1_error <= prienc_error;
+      stage1_valid <= din_valid;
+    end
+    
+      reg [in_int+in_frac-1:0] stage2_barrel_out;
+  reg [out_int-1:0] stage2_barrel_out_int;
+  reg stage2_error;
+  reg stage2_valid;
+  always @(posedge clk)
+    begin
+      stage2_barrel_out <= stage1_din << (in_int-stage1_prienc_out-1);
+      stage2_barrel_out_int <= stage1_prienc_out;
+      stage2_error <= stage1_error;
+      stage2_valid <= stage1_valid;
+    end
