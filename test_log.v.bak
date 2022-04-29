@@ -1,0 +1,11 @@
+module test_log();
+   reg [31:0]x;
+  wire [31:0]out;
+
+  log_operation inst(.x(x), .log_output(out));
+  
+  initial begin
+    x=32'h41000000;
+  
+  end
+endmodule  
