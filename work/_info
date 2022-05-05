@@ -131,6 +131,22 @@ R3
 !s100 6;e3[XVTA7V?6Xf[?gzO]3
 !s85 0
 !s101 -O0
+vimpartire
+!s100 LD1^[3l>8P9j70Ycd70@z2
+Il`cb0jgojA?442iPcEDKB3
+VB`GRaBFWCb[IMb:mn:kz]3
+R4
+w1651349759
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/impartire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/impartire.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
 vinmultire
 IF[>b^KEGl9Y7@C4M]k5D;2
 V9fSIC8BoJPQGU6gHe<Gi[2
@@ -148,21 +164,21 @@ R3
 !s85 0
 !s101 -O0
 vlog_operation
-!s100 No3PNfHj;Oa0Q7b?c@MK;0
 IzLMnNU_mI4jamjP=Ol56b1
 VzL[kC2TaN^mRO2>?X>7e63
 R4
-w1651077461
+w1651170947
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v
 L0 19
 R1
 r1
-!s85 0
 31
-!s101 -O0
 R2
 R3
+!s100 No3PNfHj;Oa0Q7b?c@MK;0
+!s85 0
+!s101 -O0
 vmul_r2
 IggFa4O=HPQZRM0gib26oV2
 VXXe8=oobbm0oc9jDUTiC<3
@@ -277,11 +293,28 @@ ntest@bench_adunare
 !s100 h0mO74fd0a9h0aEV6DgQh0
 !s85 0
 !s101 -O0
+vtestBench_impartire
+IiQa=RFD>5l@R=i>TR`fT70
+V8URKbojJoaC33XfH_29Z61
+R4
+w1651349648
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_impartire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_impartire.v
+L0 1
+R1
+r1
+31
+R2
+R3
+ntest@bench_impartire
+!s100 aH>k`77^CM;CRN1i4=ClB3
+!s85 0
+!s101 -O0
 vtestBench_inmutire
-I33d;iG;dcGQAXIzUL0I381
+IY9DC43GgBB5ZF3S4af]l^2
 Vo1`O8<fFPdR3BkZn1aDL]0
 R4
-w1650739931
+w1651346481
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v
 L0 1
@@ -291,6 +324,6 @@ r1
 R2
 R3
 ntest@bench_inmutire
-!s100 ifzCAXaMziBbm;JNVIP]=2
+!s100 NNf^OZ29[jioY[]NOfc`j3
 !s85 0
 !s101 -O0

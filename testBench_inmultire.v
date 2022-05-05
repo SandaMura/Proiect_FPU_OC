@@ -5,7 +5,7 @@ module testBench_inmutire();
   inmultire instanta(.a(a), .b(b), .mul32(p));
   
   initial begin
-    a=32'h40733333;
-    b=32'h40000000; 
+    a=32'h41b1999a;
+    b=32'h41300000; 
   end
 endmodule  
