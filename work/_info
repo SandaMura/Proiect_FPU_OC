@@ -132,7 +132,6 @@ R3
 !s85 0
 !s101 -O0
 vimpartire
-!s100 LD1^[3l>8P9j70Ycd70@z2
 Il`cb0jgojA?442iPcEDKB3
 VB`GRaBFWCb[IMb:mn:kz]3
 R4
@@ -142,11 +141,12 @@ FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/se
 L0 1
 R1
 r1
-!s85 0
 31
-!s101 -O0
 R2
 R3
+!s100 LD1^[3l>8P9j70Ycd70@z2
+!s85 0
+!s101 -O0
 vinmultire
 IF[>b^KEGl9Y7@C4M]k5D;2
 V9fSIC8BoJPQGU6gHe<Gi[2
@@ -163,20 +163,37 @@ R3
 !s100 11KZVLZMEza]4<d[nQ@D70
 !s85 0
 !s101 -O0
-vlog_operation
-IzLMnNU_mI4jamjP=Ol56b1
-VzL[kC2TaN^mRO2>?X>7e63
+vLOG2
+I]4UaHiZf>mAJ9JA2CCBD[3
+VZ2GaP6LF<P<Ehgj<o4l6P0
 R4
-w1651170947
-8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v
-FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/log_operation.v
-L0 19
+w1652728435
+Z11 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/LOG2.v
+Z12 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/LOG2.v
+L0 20
 R1
 r1
 31
 R2
 R3
-!s100 No3PNfHj;Oa0Q7b?c@MK;0
+n@l@o@g2
+!s100 ecJB=5N^ZZk=6BnX@`e<53
+!s85 0
+!s101 -O0
+vlog_operation
+IEzm3WcX=443Fd?V<j8NAn1
+V8B2<o3BJjLHOdiOT<nB]e0
+R4
+w1652549752
+R11
+R12
+L0 20
+R1
+r1
+31
+R2
+R3
+!s100 zWJDB>bc_0E37<37U1@b?2
 !s85 0
 !s101 -O0
 vmul_r2
@@ -261,10 +278,10 @@ R3
 !s85 0
 !s101 -O0
 vtest_log
-IE]AQ0zc^E:RIg1YK;l9m[2
+I@CZaD>C5?3B?aZ7L6d=711
 VdUIdVE@:B5@Wl<l[L8zck3
 R4
-w1650902790
+w1652549963
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_log.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_log.v
 L0 1
@@ -273,7 +290,7 @@ r1
 31
 R2
 R3
-!s100 JHP5jbeGKYZl2TWIM2InQ3
+!s100 MN`mzK?W742ZFEek]z=?e3
 !s85 0
 !s101 -O0
 vtestBench_adunare

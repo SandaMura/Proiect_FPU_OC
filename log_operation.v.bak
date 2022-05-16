@@ -20,7 +20,7 @@ module log_operation (input [31:0]x_i, output reg [31:0]log_output);
         
           
           //  uint IVLN2HI_U32;
-          `define IVLN2HI_U32 32'h3fb8b000 // 1.4428710938e+00
+          `define IVLN2HI_U32 32'h3fb8b000 // 1.4428710938e+00 // log e
           `define IVLN2LO_U32 32'hb9389ad4 // -1.7605285393e-04
           
           `define LG1_U32  32'h3f2aaaaa // 0.66666662693 /*  0xaaaaaa.0p-24*/
@@ -51,6 +51,8 @@ module log_operation (input [31:0]x_i, output reg [31:0]log_output);
             reg [31:0] produs;
             reg[31:0] log;
             reg gata;
+            real aux;
+            real aux_s;
             
             
 ///functia de inmultire         
@@ -471,9 +473,16 @@ always @(*) begin
 
             //f = x - 32'h3F800000; //x-1
             f=add_sum(x, 32'hbf800000);
-            s = f / (add_sum(32'h40000000, f));
+                     
+              aux=$bitstoreal(f);
+                    // $bitstoreal(f);
+            aux_s = aux / ((1.50463276905e-36)+aux);
+            //$realtobits(s);
+            //$realtobits(f);
             //z = s * s;
+            s=$bitstoreal(aux_s);
             z=mul32(s, s);
+            //z=s*s;
             //w = z * z;
             w=mul32(z, z);
             t1 = mul32(w, add_sum(32'h3eccce13, mul32(w, 32'h3e789e26)));
