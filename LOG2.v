@@ -671,7 +671,7 @@ endfunction
    // 1/ln(2) = 1.44269504089= 0x3fb8aa3b = 00111111101110001010101000111011
    ///apoi trebuie sa impart rezultatul cu 10^(-38)
    
-   rez=mul(mul(rez_ln, 32'h3fb8aa3b), e-38);
+   rez=mul(mul(rez_ln, 32'h3fb8aa3b), 32'h006ce3ee);
    
    
   
