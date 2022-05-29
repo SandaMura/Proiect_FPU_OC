@@ -32,7 +32,7 @@ module LOG2 (input [31:0]x, output reg [31:0]rez);
   
   reg inf,den;
   reg snan;
-  reg [31:0] rez_ln;
+  reg [31:0]rez_ln;
   
   
   reg [31:0] exp_ln2,m,m_1,f,mp2,mp3,mp4,mp5,mp6,mp7,mp8,mp9;
@@ -421,109 +421,14 @@ end
 endfunction
 
 
- function [31:0] i2f;
-  input [31:0]a_in; //numar intreg pe 32 de biti
-  ///1-sgn,    8-exp,   23-man
-  
-  reg sgna;
-  reg [31:0]a;
-  reg [22:0]mana;
-  reg a_n;  //este a normalizat?
-  reg [23:0]sa;//significand(cu tot cu hidden bit)
-  
-  integer ze;///daca e caz de overflow sa se retina
-  reg [24:0]sz;///pe 37 de biti pentru cout
-  reg sgnz;
-  
-  
-  begin
-    sgna = a_in[31]; 
-    a = a_in;
-    if(sgna)
-      a = ~a+1;
-      
-    //$display("ze before=%d",ze);
-    
-      casex(a)
-        32'b01??????????????????????????????: begin            ze = 30; end
-        32'b001?????????????????????????????: begin a = a<<1;  ze = 29; end
-        32'b0001????????????????????????????: begin a = a<<2;  ze = 28; end
-        32'b00001???????????????????????????: begin a = a<<3;  ze = 27; end
-        32'b000001??????????????????????????: begin a = a<<4;  ze = 26; end
-        32'b0000001?????????????????????????: begin a = a<<5;  ze = 25; end
-        32'b00000001????????????????????????: begin a = a<<6;  ze = 24; end
-        32'b000000001???????????????????????: begin a = a<<7;  ze = 23; end
-        32'b0000000001??????????????????????: begin a = a<<8;  ze = 22; end
-        32'b00000000001?????????????????????: begin a = a<<9;  ze = 21; end
-        32'b000000000001????????????????????: begin a = a<<10; ze = 20; end
-        32'b0000000000001???????????????????: begin a = a<<11; ze = 19; end
-        32'b00000000000001??????????????????: begin a = a<<12; ze = 18; end
-        32'b000000000000001?????????????????: begin a = a<<13; ze = 17; end
-        32'b0000000000000001????????????????: begin a = a<<14; ze = 16; end
-        32'b00000000000000001???????????????: begin a = a<<15; ze = 15; end
-        32'b000000000000000001??????????????: begin a = a<<16; ze = 14; end
-        32'b0000000000000000001?????????????: begin a = a<<17; ze = 13; end
-        32'b00000000000000000001????????????: begin a = a<<18; ze = 12; end
-        32'b000000000000000000001???????????: begin a = a<<19; ze = 11; end
-        32'b0000000000000000000001??????????: begin a = a<<20; ze = 10; end
-        32'b00000000000000000000001?????????: begin a = a<<21; ze = 9; end
-        32'b000000000000000000000001????????: begin a = a<<22; ze = 8; end
-        32'b0000000000000000000000001???????: begin a = a<<23; ze = 7; end
-        32'b00000000000000000000000001??????: begin a = a<<24; ze = 6; end
-        32'b000000000000000000000000001?????: begin a = a<<25; ze = 5; end
-        32'b0000000000000000000000000001????: begin a = a<<26; ze = 4; end
-        32'b00000000000000000000000000001???: begin a = a<<27; ze = 3; end
-        32'b000000000000000000000000000001??: begin a = a<<28; ze = 2; end
-        32'b0000000000000000000000000000001?: begin a = a<<29; ze = 1; end
-        32'b00000000000000000000000000000001: begin a = a<<30; ze = 0; end
-        32'b00000000000000000000000000000000: begin a = a<<31; ze = 0; end
-      endcase
 
-    ze = ze + 127; //adun exponentul la bias
-    
-    if(a==0)
-      ze=0;
-      
-    //a este pe 32 de biti dar eu pot sa adaug doar 23 din bitii lui in rezultat
-    //rotunjesc a in functie de bitul 32-23 = 9
-    
-    //Rotunjire!!
-    if (a[9]) begin
-        if(|a[8:0])
-          i2f = {sgna,ze[7:0],a[31:9]}+1;
-        else
-          i2f = {sgna,ze[7:0],a[31:9]}+1;
-        end
-      else
-        if(|(a[8:0]))
-          i2f = {sgna,ze[7:0],a[31:10], 1'b1};
-        else
-          i2f = {sgna,ze[7:0],a[31:10], 1'b0};
-          
-          
-    
-  end
-  
-endfunction
-
-
-
-
-
-
-
-
-////Contuinuare functie logaritm cu Taylor
   always @(*) begin
     sgna = x[31];
     mana = x[22:0];
-    a_n = |(x[30:23]);///?
+    a_n = |(x[30:23]);
     exa = x[30:23];
     exa = exa - 127;
     sa = {a_n,mana};
-    
-    $display("inainte de orice operatii  sgna=%b, mana=%b, a_n=%b, exa=%b, sa=%b",sgna, mana, a_n, exa, sa);
-    
     
     if(a_n == 0) begin
       exa = exa + 1;
@@ -558,7 +463,7 @@ endfunction
     
     //a este normalizat
     
-    if(sa<24'b101101010000010011110011) begin //comparat cu radical din 2
+    if(sa<24'b1011010100000100111100110) begin //comparat cu radical din 2
       
       m = {1'b0,8'b01111111,sa[22:0]}; //exponentul este 0 + bias pt ca este intre 1 si 2
       
@@ -566,9 +471,7 @@ endfunction
       i = sa[22:19];  ///folosesc primele cifre de dupa virgula ca sa aleg valori din tabelul cu log gata calculat
       i = 15 - i;      //indexul din tabel
       
-      $display("inmultesc m %b cu o valoare din tabel %b", m, one_sim1[32*i +: 32]);
-      
-      m = mul(m,one_sim1[32*i +: 32]);  //tabelul one_sim1 contine inversul la fiecare val
+      m = mul(m,one_sim1[44*i +: 44]);  //tabelul one_sim1 contine inversul la fiecare val
       
       //Calculul din seria Taylor
       m_1 = add(m,`minus1);
@@ -596,16 +499,10 @@ endfunction
       
       y = mul(m_1,f);   //inmultesc cu (M-1) dupa seria Taylor
       y = add(y,ln_sim1[32*i +: 32]);  //adun logaritmul gata calculat din tabel //de la 32i pana la 32(i+1)
-      
-      $display("exa inainte de i2f = %d", exa);
-      
-    $display("exa dupa i2f = %h", i2f(exa));
-      
-      exp_ln2 = mul(`ln2,i2f(exa)); //inmultesc cu 1/ln2
-      
-      rez_ln = add(exp_ln2,y);
+      exp_ln2 = mul(`ln2,$bitstoreal(exa)); //inmultesc cu 1/ln2
+      rez = add(exp_ln2,y);
       if(sa==0)
-        rez_ln=32'hff800000;
+        rez=32'hff800000;
       
       /*$display("m=%h",m);
       $display("m-1=%h",m_1);
@@ -657,23 +554,18 @@ endfunction
       y = add(y,`neg^`ln2);
       
       exp_ln2 = mul(`ln2,i2f(exa+1));
-      rez_ln = add(exp_ln2,y);
+      rez = add(exp_ln2,y);
       if(sa==0)
-        rez_ln=32'hff800000;
+        rez=32'hff800000;
       
       
     end //if
     
-    
-    ///am calculat ln(a), dar eu vreau log2(a)
-    ///inmultesc ln(a) cu 1/ln(2) pt a face schimbarea de baza si a obtine rezultatul
-   //ln(2)= 0.69314718056 
-   // 1/ln(2) = 1.44269504089= 0x3fb8aa3b = 00111111101110001010101000111011
+    // 1/ln(2) = 1.44269504089= 0x3fb8aa3b = 00111111101110001010101000111011
    ///apoi trebuie sa impart rezultatul cu 10^(-38)
-   
+
+   //rez=mul(mul(rez_ln, 32'h3fb8aa3b), e-38);
    rez=mul(mul(rez_ln, 32'h3fb8aa3b), 32'h006ce3ee);
-   
-   
   
   end//always
 

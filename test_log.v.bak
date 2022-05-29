@@ -1,11 +1,11 @@
 module test_log();
-   reg [31:0]x_i;
-  wire [31:0]log_output;
+   reg [31:0]x;
+  wire [31:0]rez;
 
   LOG2 inst(.x(x), .rez(rez));
   
   initial begin
-    x_i=32'h41000000;
+    x=32'h44800000;
   
   end
 endmodule  
