@@ -59,7 +59,10 @@ Rounding Modes (rmode):
 */
 
 
-module fpu( clk, rmode, fpu_op, opa, opb, out, inf, snan, qnan, ine, overflow, underflow, zero, div_by_zero);
+module fpu( clk, rmode, fpu_op, opa, opb, out, inf, snan, qnan, ine, overflow, underflow, zero, div_by_zero,
+             ///exceptie log
+              opa_zero_or_neg
+              );
 input		clk;
 input	[1:0]	rmode;
 input	[2:0]	fpu_op;
@@ -70,6 +73,9 @@ output		ine;
 output		overflow, underflow;
 output		zero;
 output		div_by_zero;
+
+///exceptie log
+output opa_zero_or_neg;
 
 parameter	INF  = 31'h7f800000,
 		QNAN = 31'h7fc00001,
@@ -141,6 +147,9 @@ wire		opa_00, opb_00;
 wire		opa_inf, opb_inf;
 wire		opa_dn, opb_dn;
 
+///New exception
+wire opa_zero_or_neg;
+
 except u0(	.clk(clk),
 		.opa(opa_r), .opb(opb_r),
 		.inf(inf_d), .ind(ind_d),
@@ -148,7 +157,10 @@ except u0(	.clk(clk),
 		.opa_nan(opa_nan), .opb_nan(opb_nan),
 		.opa_00(opa_00), .opb_00(opb_00),
 		.opa_inf(opa_inf), .opb_inf(opb_inf),
-		.opa_dn(opa_dn), .opb_dn(opb_dn)
+		.opa_dn(opa_dn), .opb_dn(opb_dn),
+		
+		///new exception
+		.opa_zero_or_neg(opa_zero_or_neg)
 		);
 
 ////////////////////////////////////////////////////////////////////////
@@ -556,5 +568,10 @@ always @(posedge clk)
 
 always @(posedge clk)
 	div_by_zero <= #1 opa_nan_r & !opa_00 & !opa_inf & opb_00;
-
+	
+	
+///Exceptie la calculul logaritmului: a < 0 sau a = 0
+//always @(posedge clk)
+	   //    opa_zero_or_neg<= #1 opa[31] | (!(|fracta) & !(|expa));
+	       
 endmodule

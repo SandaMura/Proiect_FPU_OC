@@ -3,196 +3,344 @@ K3
 13
 cModel Technology
 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\lab LD\Verilog
+vadd_fl_22
+Ie;7ERR;hVBGH;NZ]2H76d0
+VJdZ^?TPWHfcnj0iHURDfk2
+Z0 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\Labs\OC\FPU_MuraSanda\verilogFiles_project
+w1651070799
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/adunare.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/adunare.v
+L0 2
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 >P1Z0<_A@kAYjh0@0dBaY3
+!s85 0
+!s101 -O0
 vadd_sub27
 IP6TaKgUE7gHz`HSa[6<2z1
 Vj?ZHJaS415oOi^SeJS^oE0
-Z0 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\Labs\OC\FPU_MuraSanda\verilogFiles_project
-Z1 w1000383036
-Z2 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v
-Z3 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v
+Z4 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\Labs\OC\FPU_MuraSanda\verilogFiles_project
+Z5 w1000383036
+Z6 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v
+Z7 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/primitives.v
 L0 44
-Z4 OV;L;6.5b;42
+R1
 r1
 31
-Z5 !s102 -nocovercells
-Z6 o-work work -nocovercells -O0
+R2
+R3
 !s100 6^il32PhJlab;RM8fo2KN0
 !s85 0
 !s101 -O0
 vdelay1
 IYz1<7cb6ooc4`_@Nho[gX1
 VOAFoE9:Izg<z=D@?4NaMh3
-Z7 dC:\Users\sanda\OneDrive - Universitatea Politehnica Timisoara\AN 2 2021-2022\sem2\Labs\OC\FPU_MuraSanda\verilogFiles_project
+R4
 Z8 w1000550676
 Z9 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v
 Z10 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/post_norm.v
 L0 627
-R4
+R1
 r1
 31
-R5
-R6
+R2
+R3
 !s100 UX4hbJMF_NCTW7Eo[YYUO3
 !s85 0
 !s101 -O0
 vdelay2
 Ih5<<VXlmiKJH9=d^F^WjU1
 V<^fTb6W3ie7_2Xj84E72=0
-R7
+R4
 R8
 R9
 R10
 L0 641
-R4
+R1
 r1
 31
-R5
-R6
+R2
+R3
 !s100 F1O>][a?z9P>31ol_@U5_0
 !s85 0
 !s101 -O0
 vdelay3
 I`0P4`ZE3o8:3XM<EK8X]33
 V0`2]0BlmUZH2a1Hz1fU]j1
-R7
+R4
 R8
 R9
 R10
 L0 657
-R4
+R1
 r1
 31
-R5
-R6
+R2
+R3
 !s100 YaLb28bdz99Nck95i1AS:0
 !s85 0
 !s101 -O0
 vdiv_r2
 I;82K12Cbg]9bR;K8oQ]FI1
 V=ZVU7:_6904a4;CPKDXP53
-R7
-R1
-R2
-R3
-L0 81
 R4
-r1
-31
 R5
 R6
+R7
+L0 81
+R1
+r1
+31
+R2
+R3
 !s100 Tz3KBn5;;;::3]^@`PWg]2
 !s85 0
 !s101 -O0
 vexcept
-IeaIQmDNaOfSH<bc0QknT03
-VQD;jJe2ZRHm<W30e5GZ303
-R7
-R1
+I<PcT3iENZTgo^eYVVTFP;0
+VaDZKLQz6?_iXjGk=aW=if0
+R4
+w1649529027
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/except.v
 L0 39
-R4
+R1
 r1
 31
-R5
-R6
-!s100 1XXD?hm?gf@b]Ta<0M8L^0
+R2
+R3
+!s100 W=HXW?7AISUzeBFOgI35:3
 !s85 0
 !s101 -O0
 vfpu
-I^QHES5;jhdgEZFO<]6b:81
-VF:[:DbCVW92<A;:GO^S]m0
-R7
-R8
+II2H^6492dQ]BkGQ9^oNbj2
+Vz0TloIQUY>PWd`Xg=0?zD3
+R4
+w1649528626
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/fpu.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/fpu.v
 L0 62
-R4
+R1
 r1
 31
-R5
-R6
-!s100 dDh3Hjdna3XREDZhj7MaV3
+R2
+R3
+!s100 6;e3[XVTA7V?6Xf[?gzO]3
+!s85 0
+!s101 -O0
+vimpartire
+Il`cb0jgojA?442iPcEDKB3
+VB`GRaBFWCb[IMb:mn:kz]3
+R4
+w1651349759
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/impartire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/impartire.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 LD1^[3l>8P9j70Ycd70@z2
+!s85 0
+!s101 -O0
+vinmultire
+IF[>b^KEGl9Y7@C4M]k5D;2
+V9fSIC8BoJPQGU6gHe<Gi[2
+R4
+w1650740867
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/inmultire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/inmultire.v
+L0 3
+R1
+r1
+31
+R2
+R3
+!s100 11KZVLZMEza]4<d[nQ@D70
+!s85 0
+!s101 -O0
+vLOG2
+!s100 dBAmhY4<T<:7F]55LaRI_0
+I@3P2K>J@Gahd_Z]VER<=72
+VZ2GaP6LF<P<Ehgj<o4l6P0
+R4
+w1652815739
+Z11 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/LOG2.v
+Z12 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/LOG2.v
+L0 20
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+n@l@o@g2
+vlog_operation
+IEzm3WcX=443Fd?V<j8NAn1
+V8B2<o3BJjLHOdiOT<nB]e0
+R4
+w1652549752
+R11
+R12
+L0 20
+R1
+r1
+31
+R2
+R3
+!s100 zWJDB>bc_0E37<37U1@b?2
 !s85 0
 !s101 -O0
 vmul_r2
 IggFa4O=HPQZRM0gib26oV2
 VXXe8=oobbm0oc9jDUTiC<3
-R7
-R1
-R2
-R3
-L0 61
 R4
-r1
-31
 R5
 R6
+R7
+L0 61
+R1
+r1
+31
+R2
+R3
 !s100 R@ZAdG64<4Yl@;LdhT6ZH1
 !s85 0
 !s101 -O0
 vpost_norm
 IU>jK`HY8Lj>nocS:zQbT^0
 VIiWQckjLjUf2KfTgESa]E1
-R7
+R4
 R8
 R9
 R10
 L0 38
-R4
+R1
 r1
 31
-R5
-R6
+R2
+R3
 !s100 cd00XdPA?k65DmRj8d>:a0
 !s85 0
 !s101 -O0
 vpre_norm
 IOJKc@CK=5Bh?YXkba?AK`1
 V8>LKIY2?0TTD=6enKi6PZ1
-R7
-R1
+R4
+R5
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm.v
 L0 38
-R4
+R1
 r1
 31
-R5
-R6
+R2
+R3
 !s100 ;@]KNUF`aZS`gC>?EBhAP3
 !s85 0
 !s101 -O0
 vpre_norm_fmul
 I@<RXjDC6z>7j7Jl6TK[5h3
 VB6V6dN_QU?7V44AHMkiQz1
-R7
-R1
+R4
+R5
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/pre_norm_fmul.v
 L0 37
-R4
+R1
 r1
 31
-R5
-R6
+R2
+R3
 !s100 nz@b3eZcj9`09_9BbBMCV1
 !s85 0
 !s101 -O0
 vtest
-!s100 8zRHE5gNBV>?SiY:Q9JnZ0
-IMc:FBzQW51E4=Rh9n4HIB3
+IVd05:5UVIaCAR^ZEghgKf0
 Vk<3<[f=78GX=_HO53D;7>3
-R7
-w1649511182
+R4
+w1649529467
 8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v
 FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_top.v
 Fsel_test.vh
 L0 40
-R4
+R1
 r1
-!s85 0
 31
+R2
+R3
+!s100 fHkXa7<KaFiGFI29kN;Gl0
+!s85 0
 !s101 -O0
-R5
-R6
+vtest_log
+I@CZaD>C5?3B?aZ7L6d=711
+VdUIdVE@:B5@Wl<l[L8zck3
+R4
+w1652814617
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_log.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/test_log.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 MN`mzK?W742ZFEek]z=?e3
+!s85 0
+!s101 -O0
+vtestBench_adunare
+IVB:YbWQdiNYLPHzl4T6o[0
+Vo7jF47DBL>_WV4=jVl:e80
+R4
+w1651070980
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_adunare.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_adunare.v
+L0 1
+R1
+r1
+31
+R2
+R3
+ntest@bench_adunare
+!s100 h0mO74fd0a9h0aEV6DgQh0
+!s85 0
+!s101 -O0
+vtestBench_impartire
+IiQa=RFD>5l@R=i>TR`fT70
+V8URKbojJoaC33XfH_29Z61
+R4
+w1651349648
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_impartire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_impartire.v
+L0 1
+R1
+r1
+31
+R2
+R3
+ntest@bench_impartire
+!s100 aH>k`77^CM;CRN1i4=ClB3
+!s85 0
+!s101 -O0
+vtestBench_inmutire
+IY9DC43GgBB5ZF3S4af]l^2
+Vo1`O8<fFPdR3BkZn1aDL]0
+R4
+w1651346481
+8C:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v
+FC:/Users/sanda/OneDrive - Universitatea Politehnica Timisoara/AN 2 2021-2022/sem2/Labs/OC/FPU_MuraSanda/verilogFiles_project/testBench_inmultire.v
+L0 1
+R1
+r1
+31
+R2
+R3
+ntest@bench_inmutire
+!s100 NNf^OZ29[jioY[]NOfc`j3
+!s85 0
+!s101 -O0

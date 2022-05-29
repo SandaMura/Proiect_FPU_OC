@@ -36,11 +36,21 @@
 `timescale 1ns / 100ps
 
 
-module except(	clk, opa, opb, inf, ind, qnan, snan, opa_nan, opb_nan,
-		opa_00, opb_00, opa_inf, opb_inf, opa_dn, opb_dn);
+module except(	clk, opa, opb, inf, ind, qnan, snan, 
+       opa_nan, opb_nan,
+		  opa_00, opb_00, opa_inf, opb_inf, opa_dn, opb_dn,
+		  
+		  ///new exception
+        opa_zero_or_neg
+		  
+		  );
+		  
 input		clk;
 input	[31:0]	opa, opb;
 output		inf, ind, qnan, snan, opa_nan, opb_nan;
+////new exception
+output opa_zero_or_neg;
+
 output		opa_00, opb_00;
 output		opa_inf, opb_inf;
 output		opa_dn;
@@ -55,6 +65,11 @@ wire	[7:0]	expa, expb;		// alias to opX exponent
 wire	[22:0]	fracta, fractb;		// alias to opX fraction
 reg		expa_ff, infa_f_r, qnan_r_a, snan_r_a;
 reg		expb_ff, infb_f_r, qnan_r_b, snan_r_b;
+
+////Exceptia noua LOG
+reg opa_zero_or_neg;
+
+
 reg		inf, ind, qnan, snan;	// Output registers
 reg		opa_nan, opb_nan;
 reg		expa_00, expb_00, fracta_00, fractb_00;
@@ -148,6 +163,20 @@ always @(posedge clk)
 
 always @(posedge clk)
 	opb_dn <= #1 expb_00;
+	
+	reg zon1, zon2, zon3, zon4;
+	
+	
+  ///Exceptie la calculul logaritmului: a < 0 sau a = 0
+  always @(posedge clk)begin
+         // opa_zero_or_neg<= #1 opa[31] | (!(|fracta) & !(|expa));
+          zon1<=#1 opa[31] | (!(|fracta) & !(|expa));
+          zon2<=#1 zon1;
+         
+          opa_zero_or_neg<=#1 zon2;
+          
+          
+        end
 
 endmodule
 
